@@ -1,0 +1,28 @@
+
+Para se poder realizar a "escuta" do fluxo de dados transmitidos numa rede de forma passiva, 
+primeiro é necessário habilitar sua placa para modo monitor (ou promíscuo). No Linux, pode-se fazer
+com o seguinte comando:
+
+iwconfig wlan0 mode monitor
+
+No exemplo acima, temos o exemplo no qual mudamos a interface de rede wlan0 para modo monitor. Para visualizar suas interfaces de
+rede use o comando ifconfig, como mostra a seguir:
+
+ifconfig
+
+Mas geralmente a placa de rede wireless é a wlan0 para sistemas Linux.
+
+Após isso, se tudo ocorreu bem, pode-se usar programas sniffers como wireshark ou aircrack-ng para realizar
+análises e "escutas" na rede. Se algum erro foi percebido, o usuário deve então realizar a queda e levantamento
+da placa antes de realizar a troca de configuração.
+
+Exemplo:
+
+ifconfig wlan0 down
+
+iwconfig wlan0 mode monitor
+
+ifconfig wlan0 up
+
+E pronto sua placa já está em modo promíscuo, até o próximo assunto. Vale ressaltar que algumas placas de rede
+não possuem suporte para esse modo, verifique se a sua possui.
