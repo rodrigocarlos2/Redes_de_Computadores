@@ -1,0 +1,22 @@
+
+Compartilhando conhecimento.
+
+1º Deve-se colocar a placa de rede em modo monitor (promíscuo):
+
+#ifconfig wlan0 down
+
+#iwconfig wlan0 mode monitor
+
+#ifconfig wlan0 up
+
+2º Vamos fazer uma captura das redes próximas à você, com o airodump.
+
+#airodump-ng wlan0
+
+3º Vamos agora analisar o tráfego de forma passiva de uma única rede:
+
+#airodump-ng --channel ch --bssid zz:zz:zz:zz:zz:zz -w ArquivoDeCaptura wlan0
+
+Não possui o aircrack-ng:
+
+#apt-get install aircrack-ng
