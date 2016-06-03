@@ -1,0 +1,16 @@
+
+Pode-se utilizar o wireshark para fazer um sniffer em uma rede.
+
+Pode-se configurar a placa em modo monitor com os seguintes comandos:
+
+#ifconfig wlan0 down
+
+#iwconfig wlan0 mode monitor
+
+#ifconfig wlan0 up
+
+Após abaixar a placa, deve-se abrir o wireshark pelo terminal com o seguinte comando:
+
+#wireshark
+
+Com isso, vamos abrir a wireshark em modo GUI, agora basta selecionar a placa de rede e clicar em "start".
