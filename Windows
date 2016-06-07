@@ -1,0 +1,5 @@
+
+// For see all the connections of computer (open, close or wait):
+
+cmd/>> netstat -an
+
