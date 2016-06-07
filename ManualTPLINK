@@ -1,0 +1,29 @@
+
+// Look the abas of router TP_LINK WR740N
+
+Information - here stay the general informations.
+
+Example: 
+
+Interface LAN
+
+  -> Aspects from Acess Point.
+
+Wireless
+
+  -> Wireless radio: enable.
+  -> WDS: used for expand radio signal.
+  
+// For more informations and pratice, use the link: http://www.tp-link.pt/resources/simulator/841_v5/index.htm
+
+Wireless -> Security : It is here that you have put the security of your network.
+
+Wireless -> MAC Filter: It is here taht you have put or out conected devices.
+
+DHCP -> Settings: Active this for dynamic attribution of adrress.
+
+Wireless -> Enable SSID (or Broadcast).
+
+Firewall -> Advanced Security -> Enable ping in LAN.
+// It is very nice!
+
