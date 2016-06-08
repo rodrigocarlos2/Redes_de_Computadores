@@ -17,6 +17,8 @@ Compartilhando conhecimento.
 
 #airodump-ng --channel ch --bssid zz:zz:zz:zz:zz:zz -w ArquivoDeCaptura wlan0
 
+Pronto, a "escuta" já foi colocada na seguinte rede.
+
 Não possui o aircrack-ng:
 
 #apt-get install aircrack-ng
