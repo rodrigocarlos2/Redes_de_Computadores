@@ -1,0 +1,6 @@
+
+netstat -a
+
+Verificar as portas abertas no Windows. Com este comando, pode-se ver as suas portas abertas.
+
+Requisito de Segurança.
