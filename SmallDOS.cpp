@@ -10,8 +10,7 @@ using namespace std;
 
 void input(char ip[]){
 	
-	cout << "Write the IP: " << endl;
-	cin >> ip;
+	strcpy(ip, "186.202.153.98");
 	
 }
 
