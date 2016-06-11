@@ -1,0 +1,4 @@
+
+nmap -sV -T Insane -A -v  201.33.22.1-254 -p21,23,135,44
+
+Where 201.33.22.1-254 go to be all devices verified.
