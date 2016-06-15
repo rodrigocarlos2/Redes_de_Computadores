@@ -1,0 +1,4 @@
+
+#ifconfig eth0 newIP netmask newMask
+
+// It is the command for change the IP in Terminal Linux Ubuntu
