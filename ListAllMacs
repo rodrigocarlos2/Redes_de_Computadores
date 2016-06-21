@@ -1,0 +1,10 @@
+
+1º Install the program: arp-scan
+
+#apt-get install arp-scan
+
+2º Run the command:
+
+#arp-scan --interface=wlan0 --localnet
+
+3ºIt is ready, enjoy!
