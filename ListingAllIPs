@@ -4,3 +4,11 @@ First to install the software arp-scan, and then run the command:
 $arp-scan --interface=wlan0 --localnet
 
 In this example, our network interface is Wlan0, but it can change.
+
+How to make this in C++ or C?
+
+It is easy, should use the command:
+
+system("command < fileStore").
+
+Where fileStore go to store the IPs on the Network.
