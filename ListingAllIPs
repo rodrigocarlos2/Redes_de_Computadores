@@ -1,0 +1,6 @@
+
+First to install the software arp-scan, and then run the command:
+
+$arp-scan --interface=wlan0 --localnet
+
+In this example, our network interface is Wlan0, but it can change.
