@@ -9,6 +9,6 @@ How to make this in C++ or C?
 
 It is easy, should use the command:
 
-system("command < fileStore").
+system("command > fileStore").
 
-Where fileStore go to store the IPs on the Network.
+Where fileStore go to store the IPs on the Network. Enjoy!
