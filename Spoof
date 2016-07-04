@@ -1,0 +1,16 @@
+
+Let's go change the MAC in Linux for other MAC.
+
+Original MAC: AA:BB:CC:DD:EE:FF
+
+New MAC: 11:22:33:44:55:66
+
+Use the proposed commands:
+
+#ifconfig wlan0 down
+
+#ifconfig wlan0 hw ethe 11:22:33:44:55:66
+
+#ifconfig wlan0 up
+
+It is all.
