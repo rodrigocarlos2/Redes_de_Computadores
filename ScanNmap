@@ -1,0 +1,6 @@
+
+For the scan ports in range of IP, use:
+
+#nmap -sV -T Insane -A -v 192.168.0.2-254 -p21,22,23,25,80
+
+With this command, the ports 21(FTP), 22(SSH), 23(Telnet), 25(SMTP) and 80(HTTP) will be scan.
