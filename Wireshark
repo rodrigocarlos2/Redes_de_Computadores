@@ -19,3 +19,5 @@ Após abaixar a placa, deve-se abrir o wireshark pelo terminal com o seguinte co
 # wireshark
 
 Com isso, vamos abrir a wireshark em modo GUI, agora basta selecionar a placa de rede e clicar em "start".
+
+Se o wireshark não estiver instalado, basta instalar usando: sudo apt-get install wireshark
