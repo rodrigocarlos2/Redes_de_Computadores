@@ -3,10 +3,10 @@ Protect the network against sniff, using the nmap.
 
 For the install, use:
 
-#apt-get install nmap
+# apt-get install nmap
 
 And after, run the command:
 
-#nmap -sV --script=sniffer-detect target
+# nmap -sV --script=sniffer-detect target
 
 Where the target is the device connected.

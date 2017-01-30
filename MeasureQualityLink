@@ -3,6 +3,6 @@ For measure quality of link, you can be use the aircrack-ng.
 
 E for this, go to use the proposed command:
 
-#aireplay-ng -9 -a ZZ:ZZ:ZZ:ZZ:ZZ:ZZ wlan [...{list of interfaces}]
+# aireplay-ng -9 -a ZZ:ZZ:ZZ:ZZ:ZZ:ZZ wlan [...{list of interfaces}]
 
 Okay, with this command you shuld the quality link of network connected in wlan0.
