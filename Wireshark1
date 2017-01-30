@@ -1,16 +1,21 @@
 
-Pode-se utilizar o wireshark para fazer um sniffer em uma rede.
+Pode-se utilizar o wireshark para fazer um sniffer em uma rede, na verdade, seu uso é fundamentado para isso.
 
-Pode-se configurar a placa em modo monitor com os seguintes comandos:
+Para se poder verificar e receber os pacotes da rede, é necessário que a placa esteja no modo de "escuta".
 
-#ifconfig wlan0 down
+Pode-se configurar a placa em modo monitor (ou modo promíscuo) com os seguintes comandos:
 
-#iwconfig wlan0 mode monitor
+# ifconfig wlan0 down
+-- Aqui estamos derrubando a placa, é necessário derrubá-la para fazer qualquer configuração.
 
-#ifconfig wlan0 up
+# iwconfig wlan0 mode monitor
+-- Com este comando, configura-se o modo monitor (ou escuta) para usa da interface de rede.
+
+# ifconfig wlan0 up
+-- Aqui subimos a placa já atualizada com as novas funcionalidades.
 
 Após abaixar a placa, deve-se abrir o wireshark pelo terminal com o seguinte comando:
 
-#wireshark
+# wireshark
 
 Com isso, vamos abrir a wireshark em modo GUI, agora basta selecionar a placa de rede e clicar em "start".
