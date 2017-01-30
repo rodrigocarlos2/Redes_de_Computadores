@@ -1,6 +1,14 @@
 
 You have be as sudo!
 
-#ifconfig wlan0 IP netmask MASK
+# ifconfig wlan0 IP netmask MASK
 
 Where IP is your IP purposed and MASK is the mask of network.
+
+It is recommended that down the board, and then up:
+
+# ifconfigo wlan0 down
+
+# ifconfig wlan0 IP netmask MASK
+
+# ifconfig wlan0 up
